@@ -1,0 +1,38 @@
+h1{
+    text-align: center;
+    color:red;
+}
+fieldset{
+    border: 2px solid black;
+    margin:20px;
+
+}
+legend{
+    color: red;
+    font-size: 20px;
+    margin:20px;
+}
+label{
+    color:black;
+    font-weight: bold;
+    margin-right: 20px;
+    margin-left: 15px;
+    padding: 5px;
+    
+}
+div{
+    margin:20px;
+}
+*{
+    background-color: antiquewhite;
+}
+button{
+    background-color: red;
+}
+marquee{
+    color:blue;
+}
+button:hover{
+    background-color: yellow;
+}
+

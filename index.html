@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        ADMISSION-FORM
+    </title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+    <h1><u>ADMISSION-FORM</u></h1>
+    <marquee direction="right">A.I.T.H Admission Form</marquee>
+    <fieldset>
+
+        <legend>
+            Personal Information
+        </legend>
+        <div>
+            <label>First-Name</label>
+            <input type="text">
+
+            <label style="margin-left: 55px;">Mid-Name</label>
+            <input type="text">
+
+            <label style="margin-left: 55px;">Last-Name</label>
+            <input type="text">
+        </div>
+        <div>
+            <label>Gender:</label>
+            <input  type="radio" name="myname">Male<input type="radio" name="myname">Female<input type="radio"name="myname">Other
+
+            <label style="margin-left: 55px;">Email</label>
+            <input type="email" name="myemail">
+        </div>
+
+        <div>
+
+            <label>Adhar-No.</label>
+            <input type="number">
+
+            <label style="margin-left: 55px;">D.O.B</label>
+            <input type="date" >
+            <label style="margin-left: 55px;">Are you elligible?:</label>
+            <input type="checkbox" name="myeligibility" >
+        </div>
+
+        <div>
+
+            <label>Phone No.</label>
+            <input type="number" name="phoneno">
+
+            <label style="margin-left: 55px;">Parent's phone-no.</label>
+            <input type="number" name="parentno.">
+        </div>
+        <div>
+            <label>Father-Name</label>
+            <input type="text" name="fathername">
+            <label style="margin-left: 55px;">Occupation</label>
+            <input type="text" name="Occupation">
+        </div>
+        <div>
+            <label>Mother-Name</label>
+            <input type="text" name="mothername">
+            <label style="margin-left: 55px;">Occupation</label>
+            <input type="text" name="occupation">
+            
+        </div>
+
+
+
+        </div>
+        <div></div>
+    </fieldset>
+    <fieldset>
+        <legend>Address</legend>
+        <div>
+            <label >Parmanent-Address</label>
+            <input type="text" name="address">
+            <label style="margin-left: 55px;">Zip</label>
+            <input type="text" name="zip">
+
+        </div>
+        <div>
+            <label >Local-Address</label>
+            <input type="text" name="address">
+            <label style="margin-left: 55px;">Zip</label>
+            <input type="text" name="zip">
+        </div>
+        <div>
+            <label >District</label>
+            <input type="text" name="district">
+            <label style="margin-left: 55px;">State</label>
+            <input type="text" name="state">
+        </div>
+        <div>
+            <label >Nationality</label>
+            <input type="text" name="Nationality">
+            <label style="margin-left: 55px;">Pin-Code</label>
+            <input type="text" name="Pin-Code">
+        </div>
+    </fieldset>
+    <fieldset>
+        <legend>Educational-Qualification</legend>
+        <div>
+        
+            <label>Qualification</label>
+            <select name="myqualifiacation" id="Qualification">
+            <option value="Btech.">Btech.</option>
+            <option value="Diploma">Diploma</option>
+
+            </select>
+        </div>
+        <div>
+
+            <label>About your Skills</label><br>
+            <textarea name="mytext" cols="30" rows="10"></textarea>
+        </div>
+    </fieldset>
+    <div>
+
+        Are you agree with <a href="#">Terms & Conditions</a>
+    </div>
+    <div>
+        <button>Submit</button>
+        <button>Reset</button>
+
+    </div>
+
+</body>
+
+</html>
